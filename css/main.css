@@ -1,0 +1,48 @@
+h1 {
+	color: white !important;
+	text-align: center;
+}
+
+#gameboard {
+    width: 384px;
+    height: 384px;
+    border: 3px solid #7B9971;
+    margin: 10px auto 10px auto;
+    color: white;
+}
+
+.square {
+    width: 64px;
+    height: 64px;
+	background-image: url(../images/placeholder.png);
+    cursor: pointer;
+    border: 3px solid #384030;
+}
+
+#newGame {
+	width: 384px;
+    height: 69px;
+    margin: 10px auto 10px auto;
+    color: white;
+	text-align: center;
+}
+
+body { 
+	background-color: black !important; 
+} 
+
+#scoreKeeper {
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	border: 3px solid white;
+    margin: 10px auto 10px auto;
+    color: white !important;
+}
+
+.fa {
+	cursor: pointer;
+}
+
+
+

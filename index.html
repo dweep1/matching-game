@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Christmas Matching Game</title>
+  <!-- Link Rel's -->
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+<!--****************** Begin ******************-->
+<div id="header">
+<h1>Match It</h1>
+</div>
+<table id="gameboard" class="grid">
+    <tr>
+        <td id="tile1" class="square"></td>
+        <td id="tile2" class="square"></td>
+        <td id="tile3" class="square"></td>
+        <td id="tile4" class="square"></td>
+        <td id="tile5" class="square"></td>
+        <td id="tile6" class="square"></td>
+    </tr>
+
+    <tr>
+        <td id="tile7" class="square"></td>
+        <td id="tile8" class="square"></td>
+        <td id="tile9" class="square"></td>
+        <td id="tile10" class="square"></td>
+        <td id="tile11" class="square"></td>
+        <td id="tile12" class="square"></td>
+    </tr>
+
+    <tr>
+        <td id="tile13" class="square"></td>
+        <td id="tile14" class="square"></td>
+        <td id="tile15" class="square"></td>
+        <td id="tile16" class="square"></td>
+        <td id="tile17" class="square"></td>
+        <td id="tile18" class="square"></td>
+    </tr>
+
+    <tr>
+        <td id="tile19" class="square"></td>
+        <td id="tile20" class="square"></td>
+        <td id="tile21" class="square"></td>
+        <td id="tile22" class="square"></td>
+        <td id="tile23" class="square"></td>
+        <td id="tile24" class="square"></td>
+    </tr>
+
+    <tr>
+        <td id="tile25" class="square"></td>
+        <td id="tile26" class="square"></td>
+        <td id="tile27" class="square"></td>
+        <td id="tile28" class="square"></td>
+        <td id="tile29" class="square"></td>
+        <td id="tile30" class="square"></td>
+    </tr>
+
+    <tr>
+        <td id="tile31" class="square"></td>
+        <td id="tile32" class="square"></td>
+        <td id="tile33" class="square"></td>
+        <td id="tile34" class="square"></td>
+        <td id="tile35" class="square"></td>
+        <td id="tile36" class="square"></td>
+    </tr>
+</table>
+<!-- Keep Scores -->
+<div id="scoreKeeper">
+<div "id">Score</div>
+<div "id=playerOneScore">Player One: </div>
+<div "id=playerTwoScore">Player Two:</div>
+</div>
+<!-- Starting a New Game / Instructions -->
+<div id="newGame">
+<i id="refresh" class="fa fa-refresh fa-3x faa-spin animated-hover" data-toggle="tooltip" data-placement="bottom" title="Click to start a new game"></i>
+<p>Learn How to Play</p>
+</div>
+
+<!--******************* End *******************-->
+
+<!-- Script Sources -->
+  </script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/tool-tip.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  </body>
+</html>
